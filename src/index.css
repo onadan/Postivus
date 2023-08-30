@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+h1 {
+  @apply text-[43px] sm:text-[50px] md:text-[60px];
+}
+h2 {
+  @apply text-[36px] md:text-[40px];
+}
+h3 {
+  @apply text-[26px] sm:text-[28px] md:text-[30px];
+}
+h4 {
+  @apply text-[18px] md:text-[20px];
+}
+p {
+  @apply text-[16px] md:text-[18px];
+}
+
+.marquee-img {
+  @apply grayscale hover:grayscale-0 mx-5;
+}
+
+.my-shadow {
+  box-shadow: 0 4px 1px #191a23;
+}
